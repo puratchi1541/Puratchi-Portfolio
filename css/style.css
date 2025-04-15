@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css2?family=Preahvihear&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  background-color: #11071F;
+  font-family: poppins;
+}
+
+section{
+  scroll-margin-top: 40px;
+}
+
+/* gradient buttons */
+.primary-btn{
+  background: rgb(139,42,234);
+  background: linear-gradient(90deg, rgba(139,42,234,1) 0%, rgba(59,16,101,1) 100%);
+}
+.primary-btn:hover{
+  background: rgb(139,42,234);
+  background: linear-gradient(360deg, rgba(139,42,234,1) 0%, rgba(59,16,101,1) 100%);
+}
+  
+.secondary-btn{
+border-color:#B8EA4D;
+}
+.secondary-btn:hover{
+color:#B8EA4D !important;
+}
+
+/* section headings */
+  .heading{
+    color: #CB96FF;
+  }
+  
+/* navbar */
+.navbar{
+  background-color: #11071F;
+}
+
+.navbar .container-fluid .navbar-brand{
+  font-family: Preahvihear;
+  --bs-navbar-brand-color: #CB96FF;
+}
+
+.nav-link.active {
+  --bs-navbar-active-color: #B8E94C !important;
+}
+
+/* home section */
+#home{
+  background-image: url('../images/Gradient.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#home .container .row .maintext .name{
+  background: #8B2AEA;
+background: linear-gradient(to right, #8B2AEA 3%, #E70FAA 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  #home .container .row .maintext{
+    font-family: preahvihear;
+  }
+} 
+
+/* about section */
+#about{
+  background-image: url('../images/Gradient-l.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#about .container p{
+  font-family: preahvihear;
+  font-weight: 100;
+}
+
+/* service section */
+#service{
+  background-image: url('../images/Gradient.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+ #service .container .row .col img{
+width: 40px;
+height: 40px;
+/* object-fit: contain; */
+ }
+
+ #service .container .row .col .img-container{
+  width: ;
+ }
+
+ #service .container .row .col p{
+  font-family: preahvihear;
+  font-weight: 100;
+ }
+
+ /* tools */
+ #tools{
+  background-image: url('../images/Gradient-l.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+
+ #tools .container-fluid .container .row .icon-container img{
+  width: 40px;
+  height: 40px;
+ }
+
+ #tools .container-fluid .container .row .icon-container{
+  background-color: #ffffff17;
+ }
+
+ /* programming skills */
+.progress-bar{
+ background-color: #B8E94C;
+}
+
+#skills{
+  background-image: url('../images/Gradient.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+ }
+
+/* works */
+#works i{
+  color: #E70FAA;
+}
+
+#works{
+  background-image: url('../images/Gradient-l.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+
+ /* contact */
+ #contact .contact{
+  color: #B8EA4D;
+ }
+
+ #contact .form-control{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+ }
+
+ /* works.html css */
+ #gd,#uiux,#fswd{
+  background-image: url('../images/Gradient-l.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+
+ /* gd uiux fswd cards */
+.card{
+  color: rgb(240, 218, 218);
+  background: rgba(255, 255, 255, 0.085);
+box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.045);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 14px;
+border: 1px solid rgba(255, 255, 255, 0.129);
+ }
+
+ .card:hover{
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.129);
+ }
+
+ .card img{
+  opacity: 85%;
+ }
+
+ .card:hover img{
+  opacity: 100%;
+ }
